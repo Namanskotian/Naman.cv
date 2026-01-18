@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman.exe | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --secondary-color: #238636;
+            --warning-color: #d29922;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 { color: var(--accent-color); margin: 0; }
+        .status-tag { background: #23863633; color: var(--secondary-color); padding: 2px 8px; border-radius: 12px; font-size: 0.8rem; }
+
+        .contact-bar {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            color: #8b949e;
+        }
+
+        section { margin-bottom: 40px; }
+        h2 { 
+            color: var(--warning-color); 
+            border-left: 4px solid var(--warning-color); 
+            padding-left: 10px;
+            text-transform: uppercase;
+        }
+
+        .terminal-box {
+            background: #161b22;
+            padding: 15px;
+            border-radius: 4px;
+            border-left: 3px solid #30363d;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 5px 12px;
+            margin: 5px;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        .skill-tag:hover { border-color: var(--accent-color); color: white; }
+
+        .education-item { margin-bottom: 20px; border-bottom: 1px dashed #30363d; padding-bottom: 10px; }
+        
+        .humor-note {
+            font-style: italic;
+            color: #8b949e;
+            font-size: 0.85rem;
+            margin-top: 5px;
+        }
+
+        .cursor { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>NAMAN S KOTIAN <span class="status-tag">Status: Compiling...</span></h1>
+        <div class="contact-bar">
+            <span>📞 9663326807</span> | 
+            <span>📍 New Padpu Road, Konaje</span> | 
+            <span>📧 namanskotian@gmail.com</span>
+        </div>
+    </header>
+
+    <section id="objective">
+        <h2>> // MISSION_OBJECTIVE</h2>
+        <div class="terminal-box">
+            <p>A motivated and disciplined student currently running on caffeine and curiosity. I possess a high <b>problem-solving throughput</b> and a positive attitude towards teamwork (unless someone forgets a semicolon). Currently optimizing my knowledge base for the AI/ML era.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>> // TECH_STACK</h2>
+        <div>
+            <strong>Hardcoded Skills:</strong><br>
+            <span class="skill-tag">C</span> <span class="skill-tag">C++</span> 
+            <span class="skill-tag">Python (Snake Language)</span> <span class="skill-tag">HTML</span>
+        </div>
+        <div style="margin-top: 15px;">
+            <strong>Soft Skills (Human Interface):</strong><br>
+            <span class="skill-tag">Strategic Planning</span> <span class="skill-tag">Teamwork</span> 
+            <span class="skill-tag">Leadership</span> <span class="skill-tag">Problem Solving</span>
+        </div>
+        <p class="humor-note">// Note: My problem-solving skills include 40% Googling and 60% "Wait, it works now?"</p>
+    </section>
+
+    <section id="achievements-internships">
+        <h2>> // LOGS: ACHIEVEMENTS & INTERNSHIPS</h2>
+        <div class="terminal-box">
+            <p style="color: var(--warning-color);">[WARNING]: Data not found. Section currently under construction.</p>
+            <p>Attempting to fetch future milestones... <span class="cursor">_</span></p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>> // SYSTEM_HISTORY (EDUCATION)</h2>
+        
+        <div class="education-item">
+            <strong>St Aloysius Deemed to be University</strong> (2025 - Present)
+            <br>B.Tech in CSE (AI & ML)
+            <p class="humor-note">Currently training my neural networks (mostly my brain) to understand backpropagation.</p>
+        </div>
+
+        <div class="education-item">
+            <strong>St Aloysius PU College, Mangalore</strong> (2023 - 2025)
+            <br>2nd PUC Science (PCMC)
+            <p class="humor-note">Survived the Physics-Chemistry-Math-Computer triad with sanity mostly intact.</p>
+        </div>
+    </section>
+
+    <footer style="text-align: center; color: #484f58; font-size: 0.8rem; margin-top: 50px;">
+        <p>Built by Naman | No ChatGPT was harmed (much) in the making of this profile.</p>
+    </footer>
+</div>
+
+</body>
+</html>
